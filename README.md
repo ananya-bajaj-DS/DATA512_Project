@@ -90,6 +90,9 @@ pip install -r requirements.txt
 # Folder Structure
 1. LICENSE
 2. README.md
+3. AB_DATA512_Project.ipynb.zip
+4. Project 1 Folder - test (** Note: Issues in moving the files to project 1 folder,had already uploaded everything outside)
+   
 
 # Data Files
 yearly_smoke_impacts.json
