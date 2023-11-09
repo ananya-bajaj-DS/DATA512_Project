@@ -78,6 +78,8 @@ This histogram illustrates the distribution of wildfires based on their proximit
 # Forecasting RESULT: 
 <img width="537" alt="image" src="https://github.com/ananya-bajaj-DS/DATA512_Project/assets/121599846/31a16f5e-c34d-4671-9a71-19eed4a6ee6a">
 
+**Explanation**: I used Darts - the Data Analytics and Retrieval Toolkit, which is a Python library specializing in time series forecasting. Within Darts, I employed the exponential smoothing model. The model utilizes exponentially decreasing weights for past observations, giving more prominence to recent data points while diminishing the impact of older ones. The library offers a user-friendly interface for model initialization, training, forecasting, and hyperparameter tuning. Exponential smoothing models, known for capturing trends and seasonality in time series data, can be easily evaluated using metrics such as mean absolute error (MAE) and mean squared error (MSE) through Darts' comprehensive set of functionalities. I conducted a forecast for the next 25 years as depicted in the chart above. 
+
 # Project Structure
 The project structure includes the main data processing and analysis scripts, as well as the data visualization components. The repository also contains additional documentation and resources related to the project.
 
