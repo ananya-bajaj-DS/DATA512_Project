@@ -74,20 +74,20 @@ This histogram illustrates the distribution of wildfires based on their proximit
 
 **Visualization 3:** This time series chart illustrates the patterns in the projected impact of fire smoke and the corresponding Air Quality Index (AQI) estimates for the city across the years. The horizontal axis denotes the years, while the vertical axis signifies the values of both the fire smoke estimate and the AQI estimate.
 
-# PROJECT STRUCTURE
+# Project Structure
 The project structure includes the main data processing and analysis scripts, as well as the data visualization components. The repository also contains additional documentation and resources related to the project.
 
-# INSTALLATION
+# Installation
 To install the required dependencies, use the following command:
 pip install -r requirements.txt
 
-# FOLDER STRUCTURE
+# Folder Structure
 1. LICENSE
 2. README.md
 
-# DATA FILES
+# Data Files
 
-# REPRODUCING THE ANALYSIS
+# Reproducing the Analysis
 To replicate this analysis, adhere to the following instructions:
 
 Clone this repository to your local machine.
@@ -97,7 +97,7 @@ Download the GeoJSON Files.zip from this link, extract the "USGS_Wildland_Fire_C
 Execute 'wildfire_analysis.ipynb' to generate analyses such as smoke analysis, AQI analysis, and their comparison.
 Examine the results and interpret the findings accordingly.
 
-# LICENSE
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
