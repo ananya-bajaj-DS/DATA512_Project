@@ -86,6 +86,7 @@ pip install -r requirements.txt
 2. README.md
 
 # Data Files
+yearly_smoke_impacts.json
 
 # Reproducing the Analysis
 To replicate this analysis, adhere to the following instructions:
