@@ -45,7 +45,7 @@ Correlation analysis delves into exploring the relationship between the estimate
 
 **Predictive Model:**
 
-For the development of a predictive model for future smoke estimates in Pueblo West, the project employs the X library. This model facilitates the projection of potential smoke impacts over the next 25 years.
+For the development of a predictive model for future smoke estimates in Pueblo West, the project employs the DARTS library and uses the exponential smoothing algorithm. This model facilitates the projection of potential smoke impacts over the next 25 years.
 
 **Data Visualization:**
 
@@ -60,11 +60,45 @@ Anticipated challenges during replication:
 **Data Unavailability for Specific Years:** The absence of data for the years 1963-1983 prompted a modification to start the program loop from 1987, mitigating the risk of processing data for the unavailable time frame.
 
 **Handling Large Datasets:** Efficiently managing and analyzing extensive wildfire datasets presented a significant challenge, demanding strategic optimization of data processing and analysis to ensure project execution was smooth.
-Data Extraction and Preprocessing: Extracting and preprocessing the wildfire dataset for relevant information necessitated meticulous handling and processing. Managing the intricacies of data extraction and ensuring the data was appropriately formatted for analysis required careful attention to detail and expertise in data manipulation techniques.
 
-Visualization 1:
+**Data Extraction and Preprocessing:** Extracting and preprocessing the wildfire dataset for relevant information necessitated meticulous handling and processing. Managing the intricacies of data extraction and ensuring the data was appropriately formatted for analysis required careful attention to detail and expertise in data manipulation techniques.
+
+**Visualization 1:**
 
 This histogram illustrates the distribution of wildfires based on their proximity to a specific city. The x-axis denotes distance from the city in miles, divided into 50-mile intervals, while the y-axis represents the count of wildfires.
+<img width="662" alt="image" src="https://github.com/ananya-bajaj-DS/DATA512_Project/assets/121599846/f429e387-7d47-427b-ac4a-28438c027712">
+
+**Visualization 2:** This time series graph portrays the total acres burned by wildfires per year within a specified distance from the city. The x-axis represents the years, while the y-axis indicates the total acres burned by wildfires.
+
+<img width="662" alt="image" src="https://github.com/ananya-bajaj-DS/DATA512_Project/assets/121599846/8ec5dc6c-9d20-4ea8-968a-fa814f38f1a5">
+
+**Visualization 3:** This time series chart illustrates the patterns in the projected impact of fire smoke and the corresponding Air Quality Index (AQI) estimates for the city across the years. The horizontal axis denotes the years, while the vertical axis signifies the values of both the fire smoke estimate and the AQI estimate.
+
+# PROJECT STRUCTURE
+The project structure includes the main data processing and analysis scripts, as well as the data visualization components. The repository also contains additional documentation and resources related to the project.
+
+# INSTALLATION
+To install the required dependencies, use the following command:
+pip install -r requirements.txt
+
+# FOLDER STRUCTURE
+1. LICENSE
+2. README.md
+
+# DATA FILES
+
+# REPRODUCING THE ANALYSIS
+To replicate this analysis, adhere to the following instructions:
+
+Clone this repository to your local machine.
+Ensure Python is installed with the required libraries.
+Within the project directory, create a 'data' folder.
+Download the GeoJSON Files.zip from this link, extract the "USGS_Wildland_Fire_Combined_Dataset.json" file, and place it in the 'data' folder.
+Execute 'wildfire_analysis.ipynb' to generate analyses such as smoke analysis, AQI analysis, and their comparison.
+Examine the results and interpret the findings accordingly.
+
+# LICENSE
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
