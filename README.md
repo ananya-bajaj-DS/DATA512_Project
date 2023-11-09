@@ -73,3 +73,5 @@ This histogram illustrates the distribution of wildfires based on their proximit
 
 
 
+
+
