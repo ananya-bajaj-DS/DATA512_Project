@@ -74,7 +74,7 @@ This histogram illustrates the distribution of wildfires based on their proximit
 
 **Visualization 3:** This time series chart illustrates the patterns in the projected impact of fire smoke and the corresponding Air Quality Index (AQI) estimates for the city across the years. The horizontal axis denotes the years, while the vertical axis signifies the values of both the fire smoke estimate and the AQI estimate.
 
-**Forecasting RESULT: **
+# Forecasting RESULT: 
 <img width="537" alt="image" src="https://github.com/ananya-bajaj-DS/DATA512_Project/assets/121599846/31a16f5e-c34d-4671-9a71-19eed4a6ee6a">
 
 # Project Structure
