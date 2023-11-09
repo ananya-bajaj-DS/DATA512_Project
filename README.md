@@ -1,5 +1,6 @@
 # DATA512_Project
-# Wildfire Impact Analysis in Pueblo West City
+# Goal of the Project: 
+**Wildfire Impact Analysis in Pueblo West City**
 
 The objective of this undertaking is to assess the consequences of wildfires in Pueblo West City, with a specific emphasis on gauging the smoke effects spanning the past six decades. The examination encompasses tasks such as extracting and filtering data, estimating smoke levels, and establishing correlations with Air Quality Index (AQI) data. Furthermore, a predictive model has been crafted to anticipate forthcoming smoke estimates.
 
